@@ -1,0 +1,252 @@
+.metu {
+    position: fixed;
+    right: 5px;
+    /* background: #fff; */
+    border-radius: 5px;
+    width: auto;
+    z-index: 9999;
+    bottom: 50px;
+    padding: 10px 0;
+    /* border: 1px solid #f2f2f2; */
+    /* box-shadow: 0 0 2px rgb(0 0 0 / 30%); */
+}
+.metu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+@media only screen and (max-width:1170px) {
+    .metu ul li{
+        margin-top: 0px !important;
+    }
+    .footer .metu ul li {
+        background: initial;
+        border: initial;
+        box-shadow: initial;
+        border-radius: initial;
+    }
+}
+.metu ul li {
+    list-style: none !important;
+    background: #eef9ff;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 0 2px rgb(0 0 0 / 30%);
+    border-radius: 15px;
+}
+.footer .metu ul .to-top-pc{
+    background: initial;
+    border: initial;
+    box-shadow: initial;
+    border-radius: initial;
+}
+.metu ul li{
+    margin-top: 15px;
+}
+.metu ul>li a {
+    border: none;
+    padding: 3px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    color: #515151;
+    font-weight: 700;
+    max-width: 60px;
+    max-height: 68px;
+    cursor: pointer;
+    text-decoration: none
+}
+.metu ul>li .chat_animation {
+    display: none
+}
+.metu ul>li a i.ticon-heart {
+    background: url(../images/metu__icon-map.png) no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block
+}
+.metu ul>li a i.ticon-zalo-circle2 {
+    background: url(../images/metu__icon-zalo.png) no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block
+}
+.metu li .button {
+    background: transparent
+}
+.metu ul>li a i.ticon-angle-up {
+    background: url(../images/metu__icon-angle-up.png) no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block
+}
+.metu ul>li a i {
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: auto
+}
+.metu ul li .button .btn_phone_txt {
+    position: relative;
+    top: 35px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: none
+}
+.metu ul>li a i.ticon-messenger {
+    background: url(../images/metu__icon-messenger.png) no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block
+}
+.metu ul li .button .phone_animation i {
+    display: inline-block;
+    width: 55px;
+    font-size: 26px
+}
+.metu ul>li a i.ticon-chat-sms {
+    background: url(../images/metu__icon-sms1.jpg) no-repeat;
+    background-size: contain;
+    width: 38px;
+    height: 36px;
+    display: block
+}
+.metu ul>li a i.icon-phone-w {
+    background: url(../images/metu__icon-phone.gif) no-repeat;
+    background-size: contain;
+    width: 55px;
+    height: 55px
+}
+.metu ul li .button .btn_phone_txt {
+    position: relative
+}
+.metu ul li.phone-mobile {
+    display: block
+}
+@media only screen and (max-width:1169px) {
+.metu li .chat_animation{display:block!important}
+.metu li .button .phone_animation{box-shadow:none;position:absolute;top:-16px;left:50%;transform:translate(-50%,0)}
+.metu ul>li a{padding:0;margin:0 auto}
+.metu{background:#fff;width:100%;border-radius:0;color:#fff;height:60px;line-height:50px;position:fixed;bottom:0;left:0;z-index:999;padding:5px;margin:0;box-shadow:0 4px 10px 0 #000}
+.metu li{float:left;width:20%;list-style:none;height:50px}
+.metu ul li.phone-mobile{display:block!important}
+}
+@media only screen and (min-width:1170px) {
+.metu ul li.phone-mobile {
+    margin-bottom: 5px;
+}
+.metu ul li.phone-mobile a {}
+.metu ul li.phone-mobile a span.phone_animation  {
+    display: block;
+}
+.metu ul li.phone-mobile a span.phone_animation i {
+    width: 40px;
+    height: 40px;
+}
+.metu ul li.phone-mobile a span.btn_phone_txt {
+    position: relative;
+    top: -3px;
+}
+}
+/* --- */
+/* fix */
+@media only screen and (max-width:1170px) {
+.metu ul>li a i.ticon-heart {
+    width: 60px;
+    height: 60px;
+    margin-top: -24px;
+}
+}
+/* --- */
+.modal_wrap{display:none;position:fixed;z-index:9999;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,.5);padding-top:150px}
+.modal__content{background-color:#fefefe;margin:auto;padding:16px;border:1px solid #888;border-radius:8px;width:90%;max-width:480px;line-height:1.4}
+.modal__close{color:#aaa;float:right;margin-top:-8px;margin-right:-8px;font-size:32px;line-height:24px;width:24px;text-align:center;font-weight:700}
+.modal__close:hover,.modal__close:focus{color:red;text-decoration:none;cursor:pointer}
+@media screen and (max-width: 1170px){.modal__content{font-size: 14px}}
+/* --- */
+.metu_menu__form {
+    width: 100%;
+    text-align: center
+}
+.metu_menu__form .h_5 {
+    color: var(--main-color-1);
+    color: #007bfc;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    padding: 12px 0;
+    text-transform: uppercase
+}
+.metu_menu__form .h_6 {
+    color: #444;
+    font-size: 14px;
+    line-height: 1.3;
+    padding: 12px 0 0;
+    font-style: italic
+}
+.metu_menu__form form {
+    width: 100%;
+    max-width: 340px;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 8px;
+}
+.metu_menu__form form textarea,
+.metu_menu__form form input:not([type="submit"]) {
+    width: 100%;
+    padding: 8px 12px 8px 6px;
+    margin-bottom: 8px;
+    border: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    background-color: #fff;
+    font-family: inherit
+}
+.metu_menu__form form input[type="submit"] {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin: auto;
+    margin-top: 12px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: #fff;
+    background-image: linear-gradient(to right, #005dac, #005dac);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .3);
+    font-family: inherit;
+    text-transform: uppercase;
+}
+.metu_menu__form form input[type="submit"]:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .5);
+    background-image: linear-gradient(to right, #f00, #f00);
+}
+.metu_menu__form .metu_menu__form__tel {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 4px;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+}
+.metu_menu__form .metu_menu__form__tel:hover {
+    background-color: #005dac!important;
+}
+.metu_menu__form .metu_menu__form__submit {
+
+}
